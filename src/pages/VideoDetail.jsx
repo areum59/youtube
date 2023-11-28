@@ -17,7 +17,7 @@ export default function VideoDetail() {
                 height="640"
                 src={`http://www.youtube.com/embed/${video.id}`}
                 frameBorder="0"
-                title="video"
+                title={title}
             />
 
             <div className='p-8'>
